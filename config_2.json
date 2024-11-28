@@ -1,0 +1,11 @@
+{
+    "db": {
+        "type": "postgres",
+        "host": "localhost",
+        "port": 5432,
+        "credentials": {
+            "user": "admin",
+            "password": "secret"
+        }
+    }
+}

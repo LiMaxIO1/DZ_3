@@ -1,0 +1,22 @@
+Example 1:
+
+{
+ app -> "WebServer".
+ port -> 8080.
+ endpoints -> ( "/api/v1/resource", "/api/v1/status" ).
+}
+
+
+Example 2:
+
+{
+ db -> {
+  type -> "postgres".
+  host -> "localhost".
+  port -> 5432.
+  credentials -> {
+   user -> "admin".
+   password -> "secret".
+  }
+ }.
+}

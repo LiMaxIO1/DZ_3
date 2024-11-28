@@ -1,0 +1,8 @@
+{
+    "app": "WebServer",
+    "port": 8080,
+    "endpoints": [
+        "/api/v1/resource",
+        "/api/v1/status"
+    ]
+}
